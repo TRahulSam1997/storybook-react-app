@@ -1,17 +1,19 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  content: [],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+module.exports = {
+  mode: "jit", // enabling Jist In Time Compiler engine
+  purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {
-      spacing: {
-        '128': '32rem'
-      }
-    },
+    extend: {},
   },
   variants: {
-    extend: {
-    },
+    extend: {},
   },
-  plugins: [
-  ],
-}
+  plugins: [],
+};
